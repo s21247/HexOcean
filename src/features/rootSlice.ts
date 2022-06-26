@@ -9,9 +9,7 @@ interface Order {
   diameter: number;
   spiciness_scale: number;
   slices_of_bread: number;
-
 }
-
 
 export interface OrderState {
   value: Order[];
@@ -25,8 +23,8 @@ export const customerSlice = createSlice({
   name: "root",
   initialState,
   reducers: {
-    addOrder: (state,action: PayloadAction<Order>) => {
-     state.value.push(action.payload)
+    addOrder: (state, action: PayloadAction<Order>) => {
+      state.value.push(action.payload);
     },
   },
 });
@@ -34,4 +32,3 @@ export const customerSlice = createSlice({
 export const { addOrder } = customerSlice.actions;
 
 export default customerSlice.reducer;
-

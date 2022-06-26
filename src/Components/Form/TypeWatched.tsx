@@ -22,15 +22,15 @@ function TypeWatched({
         <>
           <label htmlFor="no_of_slices">Number of slices</label>
           <input
-              type={"number"}
-              {...register("no_of_slices", { required: true })} />
+            type={"number"}
+            {...register("no_of_slices", { required: true })}
+          />
           {errors.name && errors.name.type === "required" && (
             <span>{errors.name.message}</span>
           )}
 
           <label htmlFor="diameter">Diameter</label>
-          <input
-              {...register("diameter", { required: true })} />
+          <input {...register("diameter", { required: true })} />
           {errors.name && errors.name.type === "required" && (
             <span>{errors.name.message}</span>
           )}
