@@ -1,6 +1,7 @@
 ## Create a form that will contain the following fields:
 ### Stack technologiczny React:17 Node:v16.15.1 npm:8.11.0 TypeScript:4.7.4 ReduxToolkit React Hook Forms
 ### Working time: around 12 hours
+### Live preview: https://s21247.github.io/HexOcean/
 ### How to setup project: simply git clone then npm install and everything should work fine
 name - dish name (text field) <br/>
 preparation_time - preparation time (duration field, would be nice if the input will be formatted like 00:00:00) <br/>
