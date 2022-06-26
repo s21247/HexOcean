@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HexOcean/static/css/main.4794ef4c.css",
+    "main.js": "/HexOcean/static/js/main.e11ef7ce.js",
+    "index.html": "/HexOcean/index.html",
+    "main.4794ef4c.css.map": "/HexOcean/static/css/main.4794ef4c.css.map",
+    "main.e11ef7ce.js.map": "/HexOcean/static/js/main.e11ef7ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4794ef4c.css",
+    "static/js/main.e11ef7ce.js"
+  ]
+}
